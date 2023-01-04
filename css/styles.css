@@ -573,6 +573,11 @@ header {
     padding-left: 16px;
     color: rgba(255, 255, 255, 0.6);
     outline: transparent;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.form-group-items > input:hover {
+    border-color: var(--logo-text-white);
 }
 input::placeholder {
     font-weight: 400;
